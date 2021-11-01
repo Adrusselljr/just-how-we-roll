@@ -107,7 +107,7 @@ double6roll.addEventListener("click", function () {
   const medianDouble6 = document.querySelector("#double-d6-rolls-median")
   const modeDouble6 = document.querySelector("#double-d6-rolls-mode")
 
-  if(count === 0) {
+  if(count === 1) {
     meanDouble6.innerText = doubleNum1 + doubleNum2
     medianDouble6.innerText = doubleNum1 + doubleNum2
     modeDouble6.innerText = doubleNum1 + doubleNum2
@@ -182,7 +182,7 @@ d12roll.addEventListener("click", function () {
   const medianD12 = document.querySelector("#d12-rolls-median")
   const modeD12 = document.querySelector("#d12-rolls-mode")
 
-  if(count === 0) {
+  if(count === 1) {
     meanD12.innerText = d12Num
     meanD12.innerText = d12Num
     modeD12.innerText = d12Num
@@ -254,7 +254,7 @@ d20roll.addEventListener("click", function () {
   const medianD20 = document.querySelector("#d20-rolls-median")
   const modeD20 = document.querySelector("#d20-rolls-mode")
 
-  if(count === 0) {
+  if(count === 1) {
     meanD20.innerText = d20Num
     medianD20.innerText = d20Num
     modeD20.innerText = d20Num
