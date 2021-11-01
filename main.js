@@ -372,6 +372,11 @@ reset.addEventListener("click", function () {
   d20Median.innerText = "N/A"
   d20Mode.innerText = "N/A"
 
+  sixes = []
+  doubleSixes = []
+  twelves = []
+  twenties = []
+
 })
 
 /***************** RANDOM NUMBER SECTION *******************/
